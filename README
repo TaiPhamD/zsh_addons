@@ -1,0 +1,13 @@
+# Overview:
+
+Script to auto install:
+- **oh-my-zsh** (https://ohmyz.sh)
+   - addons z, git, zsh-syntax-highlighting, zsh-autosuggestions
+- **fzf** (https://github.com/junegunn/fzf)
+   - add "gco" alias to fuzzy find git branch and check out that branch
+   - ctrl + r to fuzzy find command history (overrides the default reverse search)
+# Prerequsite:
+- install script assumes you have wget or curl installed
+
+# installation
+- Copy the snippet below as `install.sh` (or any name) and run `bash install.sh`
